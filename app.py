@@ -14,5 +14,9 @@ def status():
 def cadastro_livro():
     return "Cadastro de Livros!"
 
+@app.route("/autores")
+def autores():
+    return "Lista de autores cadastrados!"
+
 if __name__ == "__main__":
     app.run(debug=True)
