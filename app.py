@@ -14,13 +14,9 @@ def status():
 def cadastro_livro():
     return "Cadastro de Livros!"
 
-@app.route("/autores")
-def autores():
-    return "Lista de autores cadastrados!"
-
-@app.route("/contato")
-def contato():
-    return "Entre em Contato conosco"
+@app.route("/livros")
+def livros():
+    return "Lista de Livros cadastrados!"
 
 if __name__ == "__main__":
     app.run(debug=True)
