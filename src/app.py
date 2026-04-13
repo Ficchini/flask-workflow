@@ -10,9 +10,5 @@ def home():
 def status():
     return {"Somos uma Biblioteca online!\nFaça seu cadastro e começe agora mesmo a ler livros!"}
 
-@app.route("/cadastro-livro")
-def cadastro_livro():
-    return "Cadastro de Livros!"
-
 if __name__ == "__main__":
     app.run(debug=True)
