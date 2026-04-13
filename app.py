@@ -18,6 +18,10 @@ def cadastro_livro():
 def livros():
     return "Lista de Livros cadastrados!"
 
+@app.route("/cadastro-autores")
+def cadastro-autores():
+    return "Cadastro de Autores!"
+
 @app.route("/contato")
 def contato():
     return "Entre em contato!"
